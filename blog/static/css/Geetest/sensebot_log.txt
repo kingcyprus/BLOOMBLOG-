@@ -1,0 +1,252 @@
+2021-04-19 02:38:16	Geetest
+new GT3SensorManager160919899
+2021-04-19 02:38:16	Geetest
+url_sign-->https://203.107.1.1/126617/sign_d?host=api.geetest.com&t=1618796300&s=8e8f84cd9ee9d85752ce20cffdca0f00
+2021-04-19 02:38:16	Geetest
+onActivityResumed-->cn.com.zlct.hotbit.activity.LoginActivity@be64167
+2021-04-19 02:38:17	Geetest
+responseCode-->200
+2021-04-19 02:38:17	Geetest
+请求成功:{"host":"api.geetest.com","ips":["52.31.123.174","52.30.83.119"],"ttl":42,"origin_ttl":60,"client_ip":"197.210.47.244"}
+2021-04-19 02:38:28	Geetest
+onActivityPaused-->cn.com.zlct.hotbit.activity.LoginActivity@be64167
+2021-04-19 02:38:28	Geetest
+new GT3SensorManager78979487
+2021-04-19 02:38:28	Geetest
+url_sign-->https://203.107.1.1/126617/sign_d?host=api.geetest.com&t=1618796312&s=8d4bc35e974294d015625550927799c4
+2021-04-19 02:38:28	Geetest
+onActivityResumed-->cn.com.zlct.hotbit.activity.RegisterActivity@dbfac48
+2021-04-19 02:38:29	Geetest
+responseCode-->200
+2021-04-19 02:38:29	Geetest
+请求成功:{"host":"api.geetest.com","ips":["52.31.123.174","52.30.83.119"],"ttl":30,"origin_ttl":60,"client_ip":"197.210.47.244"}
+2021-04-19 02:38:36	Geetest
+onActivityPaused-->cn.com.zlct.hotbit.activity.RegisterActivity@dbfac48
+2021-04-19 02:40:03	Geetest
+GT3SensorManager-->unregisterSensor78979487
+2021-04-19 02:40:04	Geetest
+Gettype REQUEST START
+2021-04-19 02:40:04	Geetest
+Gettype REQUEST URL: https://52.31.123.174/gettype.php?gt=00813ce008de34bf2935879701765751
+2021-04-19 02:40:04	Geetest
+Header key: Content-Length value: 0,
+2021-04-19 02:40:04	Geetest
+Header key: Content-Type value: application/x-www-form-urlencoded,
+2021-04-19 02:40:04	Geetest
+Header key: Host value: api.geetest.com,
+2021-04-19 02:40:05	Geetest
+responseCode:200
+2021-04-19 02:40:05	Geetest
+Gettype REQUEST END
+2021-04-19 02:40:05	Geetest
+GetCoder REQUEST START
+2021-04-19 02:40:05	Geetest
+GetCoder REQUEST URL: https://52.31.123.174/get.php?gt=00813ce008de34bf2935879701765751&challenge=075fbfd7587fb315c1777ae02821eb16&client_type=android&lang=en&client_type=android&w=ZdzKyQ5CiDdMdCzW8V7BhQ..08AD748F3FDB50A09A379A7F65B1F5427B52BF0E2E6CAEC530365F6172E06225B812FA38C22B72606A0CFB56460931AE055B9E2B16B86D8DCF28BD1C27A9D5E0B0B8419B7490E34C36A95F1DC3E4C4958FFC818FE8706C91D4AA6C960310AAD09C60CCF263559F3B6034D93800B33DC65FD108F2B46D3F1C93B3A971CD58ACF3
+2021-04-19 02:40:05	Geetest
+Header key: Content-Length value: 0,
+2021-04-19 02:40:05	Geetest
+Header key: Content-Type value: application/x-www-form-urlencoded,
+2021-04-19 02:40:05	Geetest
+Header key: Cookie value: GeeTestUser=a1dbd06f8c0456576ed449dde13e8842,
+2021-04-19 02:40:05	Geetest
+Header key: Host value: api.geetest.com,
+2021-04-19 02:40:06	Geetest
+responseCode:200
+2021-04-19 02:40:06	Geetest
+GetCoder REQUEST END
+2021-04-19 02:40:06	Geetest
+Ajax REQUEST START
+2021-04-19 02:40:06	Geetest
+Ajax REQUEST URL: https://52.31.123.174/ajax.php?gt=00813ce008de34bf2935879701765751&challenge=075fbfd7587fb315c1777ae02821eb16&client_type=android&lang=en
+2021-04-19 02:40:07	Geetest
+Header key: Accept-Encoding value: gzip,
+2021-04-19 02:40:07	Geetest
+Header key: Content-Encoding value: gzip,
+2021-04-19 02:40:07	Geetest
+Header key: Content-Length value: 25081,
+2021-04-19 02:40:07	Geetest
+Header key: Content-Type value: application/x-www-form-urlencoded,
+2021-04-19 02:40:07	Geetest
+Header key: Cookie value: GeeTestUser=a1dbd06f8c0456576ed449dde13e8842,
+2021-04-19 02:40:07	Geetest
+Header key: Host value: api.geetest.com,
+2021-04-19 02:40:08	Geetest
+responseCode:200
+2021-04-19 02:40:08	Geetest
+Ajax REQUEST END
+2021-05-18 07:34:58	Geetest
+new GT3SensorManager209171402
+2021-05-18 07:34:58	Geetest
+url_sign-->https://203.107.1.1/126617/sign_d?host=api.geetest.com&t=1621319702&s=6c09a4f1b13ab4b0d4071bc816bfe2e1
+2021-05-18 07:34:58	Geetest
+onActivityResumed-->cn.com.zlct.hotbit.activity.LoginActivity@12c676b
+2021-05-18 07:35:00	Geetest
+responseCode-->200
+2021-05-18 07:35:00	Geetest
+请求成功:{"host":"api.geetest.com","ips":["34.247.239.50","52.48.40.162"],"ttl":60,"origin_ttl":60,"client_ip":"129.205.113.208"}
+2021-05-18 07:35:05	Geetest
+onActivityPaused-->cn.com.zlct.hotbit.activity.LoginActivity@12c676b
+2021-05-18 07:35:05	Geetest
+GT3SensorManager-->unregisterSensor209171402
+2021-05-18 09:00:06	Geetest
+new GT3SensorManager166826162
+2021-05-18 09:00:06	Geetest
+url_sign-->https://203.107.1.1/126617/sign_d?host=api.geetest.com&t=1621324810&s=cb2138fea528ad906477a3f48fb05ce8
+2021-05-18 09:00:06	Geetest
+onActivityResumed-->cn.com.zlct.hotbit.activity.LoginActivity@4695ff9
+2021-05-18 09:00:16	Geetest
+请求报错
+2021-05-18 09:00:16	Geetest
+url_sign-->https://203.107.1.1/126617/sign_d?host=api.geetest.com&t=1621324820&s=f8b92b8f68f0be36e157727c61fc59a0
+2021-05-18 09:00:17	Geetest
+responseCode-->200
+2021-05-18 09:00:17	Geetest
+请求成功:{"host":"api.geetest.com","ips":["34.247.239.50","52.48.40.162"],"ttl":43,"origin_ttl":60,"client_ip":"129.205.113.208"}
+2021-05-18 09:00:34	Geetest
+GT3SensorManager-->unregisterSensor166826162
+2021-05-18 09:00:34	Geetest
+Gettype REQUEST START
+2021-05-18 09:00:34	Geetest
+Gettype REQUEST URL: https://34.247.239.50/gettype.php?gt=2df1a6a2c07f5148135900a70d9f138b
+2021-05-18 09:00:34	Geetest
+Header key: Content-Length value: 0,
+2021-05-18 09:00:34	Geetest
+Header key: Content-Type value: application/x-www-form-urlencoded,
+2021-05-18 09:00:34	Geetest
+Header key: Host value: api.geetest.com,
+2021-05-18 09:00:35	Geetest
+responseCode:200
+2021-05-18 09:00:35	Geetest
+Gettype REQUEST END
+2021-05-18 09:00:35	Geetest
+GetCoder REQUEST START
+2021-05-18 09:00:35	Geetest
+GetCoder REQUEST URL: https://34.247.239.50/get.php?gt=2df1a6a2c07f5148135900a70d9f138b&challenge=ef6693047fb59424873babdbf6ab9de8&client_type=android&lang=en&client_type=android&w=xL(Xba27qNstlLB8cMphzA..BDEA0EE8C47D2F5F3B0582C37BF2E119DD66659D39CC4564322E3F1199CD1150F4923C31B807E00E0C4575CC884617EE48758D6DB42CB07B6535768BFF11A32662A263FDCC8CF6A394642ECEBA5A644A75A9F08B3A6A9D2C9D1BD50E005847094BEBB7885D08CE125C9C95C5EEF4F411BECF67CF7DA9A166DE8C0985164151D9
+2021-05-18 09:00:35	Geetest
+Header key: Content-Length value: 0,
+2021-05-18 09:00:35	Geetest
+Header key: Content-Type value: application/x-www-form-urlencoded,
+2021-05-18 09:00:35	Geetest
+Header key: Cookie value: GeeTestUser=1dc8c459e7582aeefbff55faedf79960,
+2021-05-18 09:00:35	Geetest
+Header key: Host value: api.geetest.com,
+2021-05-18 09:00:36	Geetest
+responseCode:200
+2021-05-18 09:00:36	Geetest
+GetCoder REQUEST END
+2021-05-18 09:00:36	Geetest
+Ajax REQUEST START
+2021-05-18 09:00:36	Geetest
+Ajax REQUEST URL: https://34.247.239.50/ajax.php?gt=2df1a6a2c07f5148135900a70d9f138b&challenge=ef6693047fb59424873babdbf6ab9de8&client_type=android&lang=en
+2021-05-18 09:00:37	Geetest
+Header key: Accept-Encoding value: gzip,
+2021-05-18 09:00:37	Geetest
+Header key: Content-Encoding value: gzip,
+2021-05-18 09:00:37	Geetest
+Header key: Content-Length value: 26219,
+2021-05-18 09:00:37	Geetest
+Header key: Content-Type value: application/x-www-form-urlencoded,
+2021-05-18 09:00:37	Geetest
+Header key: Cookie value: GeeTestUser=1dc8c459e7582aeefbff55faedf79960,
+2021-05-18 09:00:37	Geetest
+Header key: Host value: api.geetest.com,
+2021-05-18 09:00:38	Geetest
+responseCode:200
+2021-05-18 09:00:38	Geetest
+Ajax REQUEST END
+2021-05-18 09:00:38	Geetest
+onLoadResource-->url: https://static.geetest.com/static/appweb/app3-index.html?gt=2df1a6a2c07f5148135900a70d9f138b&challenge=ef6693047fb59424873babdbf6ab9de8&lang=en&title=&type=slide&api_server=api.geetest.com&static_servers=static.geetest.com,%20dn-staticdown.qbox.me&width=100%&timeout=10000&debug=false&aspect_radio_voice=128&aspect_radio_slide=103&aspect_radio_beeline=50&aspect_radio_pencil=128&aspect_radio_click=128&voice=/static/js/voice.1.2.0.js&slide=/static/js/slide.7.8.0.js&beeline=/static/js/beeline.1.0.1.js&pencil=/static/js/pencil.1.0.3.js&click=/static/js/click.2.9.9.js
+2021-05-18 09:00:39	Geetest
+Webview-->onPageStarted-->url: https://static.geetest.com/static/appweb/app3-index.html?gt=2df1a6a2c07f5148135900a70d9f138b&challenge=ef6693047fb59424873babdbf6ab9de8&lang=en&title=&type=slide&api_server=api.geetest.com&static_servers=static.geetest.com,%20dn-staticdown.qbox.me&width=100%&timeout=10000&debug=false&aspect_radio_voice=128&aspect_radio_slide=103&aspect_radio_beeline=50&aspect_radio_pencil=128&aspect_radio_click=128&voice=/static/js/voice.1.2.0.js&slide=/static/js/slide.7.8.0.js&beeline=/static/js/beeline.1.0.1.js&pencil=/static/js/pencil.1.0.3.js&click=/static/js/click.2.9.9.js
+2021-05-18 09:00:39	Geetest
+onLoadResource-->url: https://static.geetest.com/static/js/slide.7.8.0.js
+2021-05-18 09:00:40	Geetest
+onLoadResource-->url: https://api.geetest.com/get.php?is_next=true&mobile=true&product=embed&width=100%25&https=true&gt=2df1a6a2c07f5148135900a70d9f138b&challenge=ef6693047fb59424873babdbf6ab9de8&lang=en&type=slide3&api_server=api.geetest.com&timeout=10000&aspect_radio_voice=128&aspect_radio_slide=103&aspect_radio_beeline=50&aspect_radio_pencil=128&aspect_radio_click=128&voice=%2Fstatic%2Fjs%2Fvoice.1.2.0.js&beeline=%2Fstatic%2Fjs%2Fbeeline.1.0.1.js&pencil=%2Fstatic%2Fjs%2Fpencil.1.0.3.js&click=%2Fstatic%2Fjs%2Fclick.2.9.9.js&callback=geetest_1621324848639
+2021-05-18 09:00:40	Geetest
+onLoadResource-->url: https://static.geetest.com/static/js/gct.b23f063cc29aa6466c9d41d46ebfddcb.js
+2021-05-18 09:00:41	Geetest
+onLoadResource-->url: https://static.geetest.com/static/ant/style_https.1.2.6.css
+2021-05-18 09:00:41	Geetest
+JSInterface-->gtReady
+2021-05-18 09:00:41	Geetest
+onLoadResource-->url: https://static.geetest.com/pictures/gt/fbb9dd95b/fbb9dd95b.webp
+2021-05-18 09:00:41	Geetest
+onLoadResource-->url: https://static.geetest.com/pictures/gt/fbb9dd95b/bg/cabce4622.webp
+2021-05-18 09:00:41	Geetest
+onLoadResource-->url: https://static.geetest.com/pictures/gt/fbb9dd95b/slice/cabce4622.png
+2021-05-18 09:00:41	Geetest
+onLoadResource-->url: https://static.geetest.com/static/ant/sprite2x.1.2.6.png
+2021-05-18 09:00:41	Geetest
+Webview-->onPageFinished-->url: https://static.geetest.com/static/appweb/app3-index.html?gt=2df1a6a2c07f5148135900a70d9f138b&challenge=ef6693047fb59424873babdbf6ab9de8&lang=en&title=&type=slide&api_server=api.geetest.com&static_servers=static.geetest.com,%20dn-staticdown.qbox.me&width=100%&timeout=10000&debug=false&aspect_radio_voice=128&aspect_radio_slide=103&aspect_radio_beeline=50&aspect_radio_pencil=128&aspect_radio_click=128&voice=/static/js/voice.1.2.0.js&slide=/static/js/slide.7.8.0.js&beeline=/static/js/beeline.1.0.1.js&pencil=/static/js/pencil.1.0.3.js&click=/static/js/click.2.9.9.js
+2021-05-18 09:00:41	Geetest
+onLoadResource-->url: https://static.geetest.com/favicon.ico
+2021-05-18 09:00:47	Geetest
+onLoadResource-->url: https://api.geetest.com/ajax.php?gt=2df1a6a2c07f5148135900a70d9f138b&challenge=ef6693047fb59424873babdbf6ab9de8hl&lang=en&pt=3&client_type=web_mobile&w=Su6OQTsj42xYgGhPWe0hyyI9dDmnJxSWbyAqoVvXctinnX5P4si0i3xaV9Cnac5oVxaMZ2dVsaA76NgWh4p47RnYcfoGMnFdhd9NFj8XmdHANSPmPRkJu9mY6(DRrqaK3dRzOPj9rjxjlDcz3s5xafecQCpa6vZBuyJaZH(hko(5xSbazp0JRIq1TTfevorLdJOHpA9xqTWp6O1KT75XAv2MKFNBUFGUEoeySLV7EVZ(VT1pz3679luA4tH(SUjO)JU7C4G8DiLBNgptqU8G6m4R1tT63EMN9FBsp0PfMH9VXR6OcF55)CePzIJktuVts9wDuVpm2kal()EbQpC6bSoDgBBaJEab2r(qha(yYQhqZitOaubowto6sN1fEgn7c0)NU0E8faeHkrlVh(5P6mOyQt3R4YW5WRzXhVuTMRgMlKDgrCi8ZxdxhLXiFSOU7oXfYGuejTsa9cL9vcc2OVbJyrxm2dJT4dNZq77MZqGhDLxiVXcfQipXEK8pq1Wm5omWce1Mb)WvnnL5zPXd5)314aJA3o0dmzjhPWFr9tX3odIDr3Dbz)5AazJ7uC5(QhMRdc(yRfGJTnWEO(7ayilOj0sx(L(g6qN9deWfrU7wNmx)mgTW9Dk3sHndoo2F5HWYH4ofQvAApEJJ(wHrx)zNqXYKWSIQYMAzr0zO5gxIUUYng9fCSeR432Ht6WhhzAXn4tqSnuZUp)DnAp)GiZy0gO)SsHRfe7ICQjkvG1(mOqAoDyrtSSA7qB5T2ZM787E4FR2uieRJH4BKK5x64dB5OLFzQUNKiqs5I6SMdT(MWDByLAOUqnd(gcIo8hNXGva9tmc3ejVgbbTUl7S0Jn204GVYNRK8EIfP700eBEMmcZRaNK(zeG1sye4xs9mWM3OMvYEHbEvcrRl(sqzrd0ku)qIIrEQa)EUegCIHWOeGYhPYclPu3zBeYJV)p1O0GSTKZX)DhnP8JZAGAwR)tg..12b118fb5f519d5531f8909f163a7e5c9c9232d6bc6050ded8b4482822c5015fe742ba04a7fe74f4467f108ac1f86292fb8e2a6a89ddf7f237373bf6187f7bfeeb3b6194921b19e7c839ba4da306ba64b0830ea0fb4ae910661713047628062b87d3c2e7b48939c8c940139f15e5fdd914991a3383c8baea3a1d7c8cbb04356f&callback=geetest_1621324856653
+2021-05-18 09:00:48	Geetest
+JSInterface-->gtCallBack-->code: 1, message: Success
+2021-05-18 09:01:28	Geetest
+new GT3SensorManager180418376
+2021-05-18 09:01:28	Geetest
+url_sign-->https://203.107.1.1/126617/sign_d?host=api.geetest.com&t=1621324892&s=8a77484f00c09fac6da281604ef26a31
+2021-05-18 09:01:28	Geetest
+onActivityResumed-->cn.com.zlct.hotbit.activity.RegisterActivity@f595207
+2021-05-18 09:01:29	Geetest
+responseCode-->200
+2021-05-18 09:01:29	Geetest
+请求成功:{"host":"api.geetest.com","ips":["52.48.40.162","34.247.239.50"],"ttl":27,"origin_ttl":60,"client_ip":"129.205.113.208"}
+2021-05-18 09:01:31	Geetest
+onActivityPaused-->cn.com.zlct.hotbit.activity.RegisterActivity@f595207
+2021-05-18 09:02:01	Geetest
+GT3SensorManager-->unregisterSensor180418376
+2021-05-18 09:02:01	Geetest
+Gettype REQUEST START
+2021-05-18 09:02:01	Geetest
+Gettype REQUEST URL: https://52.48.40.162/gettype.php?gt=00813ce008de34bf2935879701765751
+2021-05-18 09:02:01	Geetest
+Header key: Content-Length value: 0,
+2021-05-18 09:02:01	Geetest
+Header key: Content-Type value: application/x-www-form-urlencoded,
+2021-05-18 09:02:01	Geetest
+Header key: Host value: api.geetest.com,
+2021-05-18 09:02:02	Geetest
+responseCode:200
+2021-05-18 09:02:02	Geetest
+Gettype REQUEST END
+2021-05-18 09:02:02	Geetest
+GetCoder REQUEST START
+2021-05-18 09:02:02	Geetest
+GetCoder REQUEST URL: https://52.48.40.162/get.php?gt=00813ce008de34bf2935879701765751&challenge=0d480892bf815ca0372b8c4c210f790d&client_type=android&lang=en&client_type=android&w=sqlR5Uo))hg71uH0G3XQGw..81F83F3181F6A420FAE42BE83E31BF0BFBE8EE445D1DAA0F24AD0465CDFC19C644D4E8372BDF85E486B396567FC74E974A293BFC44F8480D0F47BE899044D00A2A87B33B2FC10C505F473AB77B94FB1F48BA461B2E0C53900B5E31A0CADF537BC5FB4A872F9ADDE9FB2484B51F3E7DAB10306BA74A78081B0EB9A8973A61F362
+2021-05-18 09:02:02	Geetest
+Header key: Content-Length value: 0,
+2021-05-18 09:02:02	Geetest
+Header key: Content-Type value: application/x-www-form-urlencoded,
+2021-05-18 09:02:02	Geetest
+Header key: Cookie value: GeeTestUser=f9a4cbe528185bc6e53aaa96dfc2983f,
+2021-05-18 09:02:02	Geetest
+Header key: Host value: api.geetest.com,
+2021-05-18 09:02:03	Geetest
+responseCode:200
+2021-05-18 09:02:03	Geetest
+GetCoder REQUEST END
+2021-05-18 09:02:03	Geetest
+Ajax REQUEST START
+2021-05-18 09:02:03	Geetest
+Ajax REQUEST URL: https://52.48.40.162/ajax.php?gt=00813ce008de34bf2935879701765751&challenge=0d480892bf815ca0372b8c4c210f790d&client_type=android&lang=en
+2021-05-18 09:02:03	Geetest
+Header key: Accept-Encoding value: gzip,
+2021-05-18 09:02:03	Geetest
+Header key: Content-Encoding value: gzip,
+2021-05-18 09:02:03	Geetest
+Header key: Content-Length value: 26092,
+2021-05-18 09:02:03	Geetest
+Header key: Content-Type value: application/x-www-form-urlencoded,
+2021-05-18 09:02:03	Geetest
+Header key: Cookie value: GeeTestUser=f9a4cbe528185bc6e53aaa96dfc2983f,
+2021-05-18 09:02:03	Geetest
+Header key: Host value: api.geetest.com,
+2021-05-18 09:02:04	Geetest
+responseCode:200
+2021-05-18 09:02:04	Geetest
+Ajax REQUEST END
+2021-05-18 09:02:59	Geetest
+GT3GtWebView-->destroy

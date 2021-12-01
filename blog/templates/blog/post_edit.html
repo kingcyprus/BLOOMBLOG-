@@ -1,0 +1,28 @@
+{% extends "blog/base.html" %}
+{% load blog_tags %}
+
+{% block content %}
+<div class="container">
+	<p>Edit Post..</p>
+
+	<form method="post">
+		{% csrf_token %}
+		<fieldset class="form-group">
+		{% autoescape off %}
+		{{ form.media }}
+		{{ form.as_p }}
+		{% endautoescape %}
+	</fieldset>
+	<div class="form-group">
+		<Input type="submit" value="Update Post"> 
+	</div>
+	</form>
+</div>
+
+	<script>
+		document.getElementById('id_title').value ='{{post.title}}';
+		document.getElementById('id_body').innerHTML ='{{post.body}}';
+		document.getElementById('id_slug').value ='{{ post.slug }}';
+	</script>
+
+{% endblock content %}

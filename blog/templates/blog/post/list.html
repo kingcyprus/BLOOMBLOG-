@@ -1,0 +1,189 @@
+{% extends "blog/base.html" %}
+{% load blog_tags %}
+{% block title %}My Blog{% endblock %}
+{% block content %}
+{% include "textbox.html" %}
+
+<!------------ COURSE ---------->
+<section class="course">
+    <h1>The Smart Energy Research Group</h1>
+    <p>
+        The Research group consist of group of persons whose aim is to build smart meters
+        <br>and also write Webapplications that allow the smart devices communicate with the
+        <br>users it functionality, status and total energy used
+    </p>
+    <div>
+        <h2> THE RESEARCH PROJECT HAS BEEN DIVIDED INTO MODULES SUCH AS:</h2>
+    </div>
+    <div class="row">
+        <div class="course-col">
+            <h3>Research On Smart Meters</h3>
+            <p>
+                This includes documentations on smart meters,
+                types and off grid capacity.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Web Development and Hardware Team</h3>
+            <p>
+                The web development teams build a responsive webpage for the smart devices<br>
+                and the hardware team oversees the building,testing and placing of the smart meters
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>The integration and Deployement Team</h3>
+            <p>
+                These team are in charge of deploying smart meter
+                getting reports on them to the web platform regularly
+                and giving feedback to other teams.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!-----Metering ----->
+
+<section class="Metering">
+    <h1> Types of Smeters Majorly used in Developed Countries</h1>
+    <p></p>
+    <div class="row">
+        <div class="Metering-col">
+            <img src="{{STATIC_URL}}/static/css/image/solar2.jpg">
+            <div class="Layer">
+                <h3>solar meter</h3>
+            </div>
+        </div>
+
+        <div class="Metering-col">
+            <img src="{{STATIC_URL}}/static/css/image/electricity meter.jpg">
+            <div class="Layer">
+                <h3>Electricity Meter</h3>
+            </div>
+        </div>
+        <div class="Metering-col">
+            <img src="{{STATIC_URL}}/static/css/image/water.jpg">
+            <div class="Layer">
+                <h3>Water Meter</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<!-----FACILIIES
+
+<section class="facilities">
+    <h1>Smart Meters Monitoring</h1>
+    <p>The Smart Meter monitorig applications or devices are used to a consumer's energy usage, below are some pictures and descriptions.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="{{STATIC_URL}}/static/css/image/gas monitoring.png">
+            <h3>nPower (EON) Smart meter for gas</h3>
+            <P>
+                Its a monitoring device that to keep track of <br />
+                your spending and see where you could<br />
+                use less to save money.
+                They send out accurate readings automatically, saving
+                you from having to provide your meter readings every month.
+            </P>
+        </div>
+        <div class="facilities-col">
+            <img src="{{STATIC_URL}}/static/css/image/water monitor1.png" width='80' , height='200'>
+            <h3>The Laison Split Type STS WATER METER</h3>
+            <P>
+                Its a monitoring device that to keep track of <br />
+                your spending and see where you could<br />
+                use less to save money.
+                They send out accurate readings automatically, saving
+                you from having to provide your meter readings every month.
+            </P>
+        </div>
+        <div class="facilities-col">
+            <img src="{{STATIC_URL}}/static/css/image/images (5).jpeg">
+            <h3>aaoasdncon</h3>
+            <P>
+                jshdcaudguadcgsidcygdiygsduiyiuysdbcyubd
+                hdcbsudcbisubci
+            </P>
+        </div>
+    </div>
+</section>------>
+
+<!---tettsimonials
+<section class="testimonials">
+    <h1>aaoasdncon</h1>
+    <P>
+        jshdcaudguadcgsidcygdiygsduiyiuysdbcyubd
+        hdcbsudcbisubci
+    </P>
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="{{STATIC_URL}}/static/css/image/images (6).jpeg">
+            <div>
+                <P>
+                    wgaffyYWTDVTYWCDYTWgcahcvs
+                </P>
+                <h3>Johnson Moyinoluwa</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+
+        <div class="testimonials-col">
+            <img src="{{STATIC_URL}}/static/css/image/images (6).jpeg">
+            <div>
+                <P>
+                    wgaffyYWTDVTYWCDYTWCDcvs
+                </P>
+                <h3>Johnson Moyinoluwa</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>-->
+
+<!-- <div class="ind">
+        <h1>Blog</h1>
+        {% for post in posts %}
+        <h2><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h2>
+        <p class="tags">Tags:{% for tag in post.tags.all %}
+            <a href="{% url 'blog:post_list_by_tag' tag.slug %}">{{ tag.name }}</a>
+            {% if not forloop.last %}, {% endif %}
+            {% endfor %}
+        </p>
+        <p class="date">Published {{ post.publish }} by {{ post.author }}</p>
+      ---filter 
+        {{ post.body|truncatewords_html:20 }}
+            {% endfor %}
+            {% include "pagination.html" with page=posts %}
+            {% if tag %}
+        <h2>Posts tagged with "{{ tag.name }}"</h2>
+            {% endif %}
+    </div> -->
+
+    <!----<div id="sidebar">
+        <h2>My blog</h2>
+        <p>This is my blog. I've written {% total_posts %} posts so far.</p>
+        <h3>Latest posts</h3>
+        {% show_latest_posts 3 %}
+        <h3>Most commented posts</h3>
+        {% get_most_commented_posts as most_commented_posts %}
+        <ul>
+            {% for post in most_commented_posts %}
+            <li>
+                 <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+            <p>
+                <a href="{% url 'blog:post_feed' %}">Subscribe to my RSS feed</a>
+            </p>
+        </div>---->
+</div>
+{% endblock %} 

@@ -1,0 +1,92 @@
+{% extends "blog/base.html" %}
+{% load blog_tags %}
+{% block title %}{{ post.title }}{% endblock %}
+{% block content %}
+
+
+
+
+<script>
+  function showDelete(){
+    document.getElementById("preoverlay").id="overlay";
+    document.getElementById("predeldiv").id="deldiv";
+  }
+  function unshowDelete(){
+    document.getElementById("overlay").id="preoverlay";
+    document.getElementById("deldiv").id="predeldiv";
+  }
+
+</script>
+<div class="container">
+      
+    <div id="preoverlay"></div>
+    <div id="predeldiv">
+      <h3>Are you sure you want to delete this post?</h3>
+      <a href="{{ post.get_absolute_url_delete }}">Yes</a>
+      <button id="nobtn" onclick="unshowDelete()">No</button>
+    </div> 
+    <h1>{{ post.title }}</h1>
+    <p class="date">Published {{ post.publish }} by {{ post.author }}</p>
+    <h6>
+      {% autoescape off %}
+          {{ post.body|safe }}
+      {% endautoescape %}
+    </h6>
+    <p><a href = "{% url 'blog:post_share' post.id %}">Share</a></p>
+
+    <div class = "text-center">
+      {% if user == post.author %}
+      <p><a href = "{{ post.get_absolute_url_edit }}">Edit Post</a></p>
+    <button class="myBtn" onclick="showDelete()">
+      Delete Post
+    </button>
+
+
+    {% endif %}
+    </div>
+
+
+    <h2>Similar posts</h2>
+    {% for post in similar_posts %}
+    <p>
+      <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+    </p>
+    {% empty %}
+    There are no similar posts yet.
+    {% endfor %}
+
+    {% with comments.count as total_comments %}
+    <h2>
+      {{ total_comments }} comment{{ total_comments|pluralize }}
+    </h2>
+    {% endwith %}
+
+    {% for comment in comments %}
+    <div class="comment">
+      <p class="info">
+        Comment {{ forloop.counter }} by {{ comment.name }}
+        {{ comment.created }}
+      </p>
+      {{ comment.body|linebreaks }}
+    </div>
+    {% empty %}
+    <p>There are no comments yet.</p>
+    {% endfor %}
+
+    {% if new_comment %}
+      <h2>Your comment has been added.</h2>
+    {% else %}
+      <h2>Add a new comment</h2>
+      <form method="post">
+      <fieldset>
+        {{ form.media }}
+        {{ comment_form.as_p }}
+      </fieldset>
+        {% csrf_token %}
+        <p><input type="submit" value="Add comment"></p>
+      </form>
+
+</div>
+
+{% endif %}
+{% endblock content %}

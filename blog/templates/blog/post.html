@@ -1,0 +1,19 @@
+{% extends "blog/base.html" %}
+{% load blog_tags %}
+{% block content %}
+
+<div class = "container post">
+	<form method="post" enctype="multipart/form-data">
+		<p>Add Post...</p>
+			{% csrf_token %}
+		<fieldset class="form-group">
+			{{ form.media }}
+			{{ form.as_p }}
+		</fieldset>
+		<br>
+		<div class="form-group">
+			<button class="btn btn-outline-info" type="submit">Add post</button>
+		</div>
+	</form>
+</div>
+{% endblock content %}
